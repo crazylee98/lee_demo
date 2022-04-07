@@ -6372,13 +6372,6 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swiper-cell@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/swiper-cell/-/swiper-cell-2.0.0.tgz#98b83bd10ee20291dc47027d1a0c4cfaeec22c7b"
-  integrity sha512-C+H6lpLNcnPbbgJ58ANgd3pZJZdeSOM1JXIWJ/6ieSR2pwAeZmcGXNpA/2MlgB4ioHdqi1ysNYvDuYCCL21+YA==
-  dependencies:
-    vue "^2.5.11"
-
 tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
   resolved "https://registry.npmmirror.com/tapable/-/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
@@ -6864,7 +6857,7 @@ vue-touch@^2.0.0-beta.4:
     rollup-plugin-commonjs "^7.0.0"
     rollup-plugin-node-resolve "^2.0.0"
 
-vue@^2.5.11, vue@^2.6.11:
+vue@^2.6.11:
   version "2.6.14"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==

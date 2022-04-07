@@ -6,7 +6,7 @@
     <!-- 重点sync -->
     <Child :msg.sync="parentMsg" :msg2.sync="parentMsg2"></Child>
 	<hr >
-	<!-- <SwiperCellDemo></SwiperCellDemo> -->
+	<SwiperCellDemo></SwiperCellDemo>
   </div>
 </template>
 
