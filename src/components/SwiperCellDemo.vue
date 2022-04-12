@@ -1,6 +1,6 @@
 <template>
   <div class="SwiperCellDemo">
-    <swiper :options="swiperOption" ref="mySwiper" @someSwiperEvent="callback" class='swiper_box'>
+    <swiper :options="swiperOption" ref="mySwiper" class="swiper_box">
       <!-- slides -->
       <swiper-slide>I'm Slide 1</swiper-slide>
       <swiper-slide>I'm Slide 2</swiper-slide>
@@ -32,7 +32,7 @@ export default {
         autoplay: {
           delay: 3000,
           stopOnLastSlide: false,
-          disableOnInteraction: false,
+          disableOnInteraction: false
         },
         // 设置显示的个数
         slidesPerView: 4,
@@ -41,34 +41,34 @@ export default {
         // 显示分页
         pagination: {
           el: ".swiper-pagination",
-          clickable: true,
+          clickable: true
         },
         // 设置点击箭头
         navigation: {
           nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      },
+          prevEl: ".swiper-button-prev"
+        }
+      }
     };
   },
   components: {
     swiper,
-    swiperSlide,
+    swiperSlide
   },
   computed: {
     swiper() {
       return this.$refs.mySwiper.swiper;
-    },
+    }
   },
   mounted() {
     this.swiper.slideTo(3, 1000, false);
-  },
+  }
 };
 </script>
 
 <style lang="less" scoped>
-	.swiper_box{
-		width: 100%;
-		height: 200px;
-	}
+.swiper_box {
+  width: 100%;
+  height: 200px;
+}
 </style>
